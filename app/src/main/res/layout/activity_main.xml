@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@color/grey"
     tools:context=".MainActivity">
 
     <TableLayout
-        android:layout_width="391dp"
+        android:layout_width="410dp"
         android:layout_height="304dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,45 +21,49 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button44"
+                android:id="@+id/clear"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="clearBtn"
                 android:text="@string/clear"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button43"
+                android:id="@+id/parentheses"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="parenthesesBtn"
                 android:text="@string/parentheses"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button42"
+                android:id="@+id/exponent"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="exponentBtn"
                 android:text="@string/exponent"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button41"
+                android:id="@+id/divide"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="divideBtn"
                 android:text="@string/divide"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
@@ -70,45 +74,49 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button48"
+                android:id="@+id/seven"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="sevenBtn"
                 android:text="@string/seven"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button47"
+                android:id="@+id/eight"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="eightBtn"
                 android:text="@string/eight"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button46"
+                android:id="@+id/nine"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="nineBtn"
                 android:text="@string/nine"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button45"
+                android:id="@+id/multiply"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="multiplyBtn"
                 android:text="@string/multiply"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
@@ -119,45 +127,49 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button52"
+                android:id="@+id/four"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="fourBtn"
                 android:text="@string/four"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button51"
+                android:id="@+id/five"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="fiveBtn"
                 android:text="@string/five"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button50"
+                android:id="@+id/six"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="sixBtn"
                 android:text="@string/six"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button49"
+                android:id="@+id/minus"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="minusBtn"
                 android:text="@string/subtract"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
@@ -168,45 +180,49 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button56"
+                android:id="@+id/one"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="oneBtn"
                 android:text="@string/one"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button55"
+                android:id="@+id/two"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="twoBtn"
                 android:text="@string/two"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button54"
+                android:id="@+id/three"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="threeBtn"
                 android:text="@string/three"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button53"
+                android:id="@+id/plus"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="plusBtn"
                 android:text="@string/add"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
@@ -217,50 +233,72 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button59"
+                android:id="@+id/zero"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="zeroBtn"
                 android:text="@string/zero"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button58"
+                android:id="@+id/decimal"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="decimalBtn"
                 android:text="@string/point"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
 
             <Button
-                android:id="@+id/button57"
+                android:id="@+id/equals"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/custom_button"
+                android:onClick="equalsBtn"
                 android:text="@string/equals"
+                app:backgroundTint="@null"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/backspace"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button"
+                android:onClick="backspaceBtn"
+                android:text="@string/backspace"
                 app:backgroundTint="@null"
                 tools:ignore="TextContrastCheck" />
         </TableRow>
     </TableLayout>
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:text="Insert Operation"
-        android:textAlignment="textEnd"
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.143"
+        android:background="@drawable/custom_size">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="409dp"
+            android:layout_height="54dp"
+            android:text="Insert Operation"
+            android:textAlignment="textEnd"
+            tools:ignore="TouchTargetSizeCheck" />
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

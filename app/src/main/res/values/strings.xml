@@ -21,5 +21,7 @@
     <string name="subtract">-</string>
     <string name="point">.</string>
     <string name="equals">=</string>
-    <string name="backspace"> </string>
+    <string name="backspace">B</string>
+    <string name="insert_operation">Insert Operation</string>
+    <string name="nan">NaN</string>
 </resources>
